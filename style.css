@@ -3,6 +3,9 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* <--Début Premier menu-->  */
+
 .premiermenu{
     display: flex;
     justify-content: center;
@@ -23,6 +26,7 @@ ul{
     /* height: 30px; */
     margin-right: 20px;
     font-size: 50px;
+    opacity: 0.1;
 }
 .menu1text ul li {
     display: inline-block;
@@ -69,13 +73,15 @@ i{
     text-decoration: 3px solid underline #85c3e9;
     text-underline-offset: 8px;
 }
+
+/* <--Début Deuxieme menu-->  */
+
 .deuxiememenu{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     height: 100px;
-
 }
 .menu2text ul li{
     display: inline-block;
@@ -95,9 +101,18 @@ i{
     color: #25384f;
     margin-right: -10px;
 }
-.logo p{
-    color: #85c3e9;
+.btnlogo{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 9px;
+    background-color: #85c3e9;
+    border: none;
 }
+
+/* <--Début Premier accueil-->  */
+
 .accueil1{
     display: flex;
     justify-content: center;
@@ -105,7 +120,6 @@ i{
     /* border: 1px solid green; */
     height: 443px;
     background-color: #85c3e9;
-
 }
 .text1 span{
     font-size: 40px;
@@ -142,6 +156,9 @@ i{
 .t32{
     margin-left: 80px;
 }
+
+/* <--Début Deuxieme accueil-->  */
+
 .accueil2{
     display: flex;
     justify-content: center;
@@ -150,15 +167,15 @@ i{
     height: 430px;
 }
 .gauche1{
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
 
 }
 .droite1 {
     /* border: 1px solid greenyellow; */
     width: 32%;
     margin-left: 150px;
-    margin-top: 70pX;
+    margin-top: 200pX;
 }
 .droite1 p{
     font-size: 40px;
